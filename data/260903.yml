@@ -1,17 +1,19 @@
 about:
-  description: :bookmark: Personal mini-web in text
+  description:
+  |
+    :bookmark: Personal mini-web in text
   license: GPL-3.0
   homepage: 
   head: c949a55
   archived: false
   latestVersion: v5.1
-  collectedAt: 2026-09-03T05:19:55Z
+  collectedAt: 2026-09-03T22:34:46Z
 timeline:
   created: 2015-11-01
   lastCommit: 2026-08-16
   lastRelease: 2025-12-07
 popularity:
-  star: 7188
+  star: 7189
   watcher: 76
   fork: 322
   release: 44
@@ -28,7 +30,7 @@ language:
   Dockerfile: 680
   Makefile: 508
   Batchfile: 63
-totalLine: 593256
+totalBytes: 593256
 recent:
   last30d:
     since: 2026-08-04

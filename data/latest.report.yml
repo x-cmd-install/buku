@@ -7,7 +7,7 @@ about:
   latestVersion: "v5.1"
   latestRelease: "v5.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T04:37:56Z
+  collectedAt: 2026-09-10T16:17:08Z
 timeline:
   created: 2015-11-01
   lastCommit: 2026-09-09
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-12-07
   lastPrerelease: 
 popularity:
-  star: 7196
+  star: 7195
   watcher: 77
   fork: 324
   release: 44
@@ -91,7 +91,7 @@ total:
   commit: 2263
 ---
 path: /home/runner/.x-repo/github.com/jarun/buku
-collectedAt: 2026-09-10T04:37:59Z
+collectedAt: 2026-09-10T16:17:10Z
 loc:
   Python:
     code: 11289

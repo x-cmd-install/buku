@@ -4,7 +4,7 @@
 
 :bookmark: Personal mini-web in text
 
-![buku](https://repo.x-cmd.io/buku.svg)
+![buku](https://repo.x-cmd.io/buku.svg?lang=zh)
 
 ## 安装
 
@@ -21,11 +21,10 @@ x install buku
 
 - **最新版本**: `v5.1` (2025-12-07)
 - **最近提交**: 2026-09-09
-- **发布时间**: 2025-12-07T15:14:15Z
 
 ## 流行度
 
-- **Star**: 7,196 · **Fork**: 324 · **开放 issue**: 430 · **贡献者**: 76
+- **Star**: 7,195 · **Fork**: 324 · **开放 issue**: 430 · **贡献者**: 76
 
 ## 累计统计
 
@@ -70,4 +69,4 @@ buku 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:38:15Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:17:17Z._

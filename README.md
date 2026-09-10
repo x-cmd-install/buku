@@ -12,6 +12,28 @@
 x install buku
 ```
 
+## Code insight
+
+Total: **32,311** lines of code across **84** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Python | 11,289 | 637 | 1,772 | 27 |
+| JavaScript | 10,212 | 2,118 | 2,145 | 7 |
+| Yaml | 9,526 | 46 | 129 | 37 |
+| Html | 582 | 0 | 54 | 12 |
+| Sql | 164 | 0 | 0 | 1 |
+
+## OpenSSF Scorecard
+
+Overall score: **3.9 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
+
 ## Source
 
 - **Upstream**: <https://github.com/jarun/buku>
@@ -35,30 +57,28 @@ x install buku
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 1 | 0 | 0 | 1 |
+| last60d | 2026-07-12 | 0 | 3 | 2 | 0 | 0 | 7 |
 | 90d | 2026-06-12 | 0 | 7 | 2 | 3 | 1 | 11 |
+| last180d | 2026-03-14 | 0 | 9 | 2 | 3 | 1 | 16 |
 | 360d | 2025-09-15 | 1 | 21 | 2 | 9 | 1 | 34 |
+| last720d | 2024-09-20 | 2 | 65 | 2 | 29 | 1 | 163 |
 
-## Code size
+## Distribution status
 
-Total: **32,311** lines of code across **84** files in the top 5 languages.
+Reported by **112** distros on [repology.org](https://repology.org/project/buku). **17** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Python | 11,289 | 637 | 1,772 | 27 |
-| JavaScript | 10,212 | 2,118 | 2,145 | 7 |
-| Yaml | 9,526 | 46 | 129 | 37 |
-| Html | 582 | 0 | 54 | 12 |
-| Sql | 164 | 0 | 0 | 1 |
-
-## OpenSSF Scorecard
-
-Overall score: **3.9 / 10**
-
-Lowest-scoring checks:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (-1/10) — No tokens found
-- **Dangerous-Workflow** (-1/10) — no workflows found
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `5.1.1` | ✅ latest |
+| Debian 14 | `5.1.1` | ✅ latest |
+| Debian 13 | `4.9` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `5.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.8` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Fedora rawhide | `4.9` | ⚠️ outdated |
+| Nix unstable | `5.1.1` | ✅ latest |
+| Void | `5.1.1` | ✅ latest |
+| Alpine edge | `5.1.1` | ✅ latest |
 
 ## Improve this data
 
@@ -69,4 +89,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:17:15Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:09:23Z._

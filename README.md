@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,195 · **Forks**: 324 · **Open issues**: 430 · **Contributors**: 76
+- **Stars**: 7,197 · **Forks**: 324 · **Open issues**: 430 · **Contributors**: 76
 
 ## Totals (cumulative)
 
@@ -89,4 +89,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:09:23Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:34:27Z._

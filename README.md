@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,197 · **Forks**: 324 · **Open issues**: 430 · **Contributors**: 76
+- **Stars**: 7,198 · **Forks**: 324 · **Open issues**: 430 · **Contributors**: 76
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 1 | 0 | 0 | 1 |
-| last60d | 2026-07-12 | 0 | 3 | 2 | 0 | 0 | 7 |
-| 90d | 2026-06-12 | 0 | 7 | 2 | 3 | 1 | 11 |
-| last180d | 2026-03-14 | 0 | 9 | 2 | 3 | 1 | 16 |
-| 360d | 2025-09-15 | 1 | 21 | 2 | 9 | 1 | 34 |
-| last720d | 2024-09-20 | 2 | 65 | 2 | 29 | 1 | 163 |
+| 30d | 2026-08-12 | 0 | 0 | 1 | 0 | 0 | 1 |
+| last60d | 2026-07-13 | 0 | 3 | 2 | 0 | 0 | 7 |
+| 90d | 2026-06-13 | 0 | 6 | 2 | 3 | 1 | 11 |
+| last180d | 2026-03-15 | 0 | 9 | 2 | 3 | 1 | 16 |
+| 360d | 2025-09-16 | 1 | 21 | 2 | 9 | 1 | 34 |
+| last720d | 2024-09-21 | 2 | 65 | 2 | 29 | 1 | 161 |
 
 ## Distribution status
 
@@ -89,4 +89,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:34:27Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T04:31:27Z._

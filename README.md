@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 1 | 0 | 0 | 0 | 1 |
-| last60d | 2026-07-18 | 0 | 4 | 0 | 0 | 0 | 8 |
-| 90d | 2026-06-18 | 0 | 7 | 1 | 4 | 0 | 12 |
-| last180d | 2026-03-20 | 0 | 10 | 1 | 4 | 0 | 17 |
-| 360d | 2025-09-21 | 1 | 22 | 1 | 10 | 0 | 35 |
-| last720d | 2024-09-26 | 2 | 65 | 1 | 30 | 0 | 161 |
+| 30d | 2026-08-18 | 0 | 1 | 0 | 0 | 0 | 1 |
+| last60d | 2026-07-19 | 0 | 4 | 0 | 0 | 0 | 8 |
+| 90d | 2026-06-19 | 0 | 7 | 1 | 4 | 0 | 12 |
+| last180d | 2026-03-21 | 0 | 10 | 1 | 4 | 0 | 17 |
+| 360d | 2025-09-22 | 1 | 22 | 1 | 10 | 0 | 35 |
+| last720d | 2024-09-27 | 2 | 65 | 1 | 30 | 0 | 161 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T04:59:38Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T04:56:01Z._

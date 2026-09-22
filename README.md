@@ -30,9 +30,9 @@ Overall score: **4 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (-1/10) — No tokens found
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
 
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,203 · **Forks**: 322 · **Open issues**: 430 · **Contributors**: 77
+- **Stars**: 7,205 · **Forks**: 322 · **Open issues**: 430 · **Contributors**: 77
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 0 | 1 | 0 | 0 | 0 | 1 |
-| last60d | 2026-07-23 | 0 | 4 | 0 | 0 | 0 | 7 |
-| 90d | 2026-06-23 | 0 | 7 | 1 | 1 | 0 | 10 |
-| last180d | 2026-03-25 | 0 | 10 | 1 | 4 | 0 | 16 |
-| 360d | 2025-09-26 | 1 | 22 | 1 | 10 | 0 | 35 |
-| last720d | 2024-10-01 | 2 | 64 | 1 | 30 | 0 | 159 |
+| 30d | 2026-08-23 | 0 | 1 | 0 | 0 | 0 | 1 |
+| last60d | 2026-07-24 | 0 | 4 | 0 | 0 | 0 | 7 |
+| 90d | 2026-06-24 | 0 | 7 | 1 | 1 | 0 | 10 |
+| last180d | 2026-03-26 | 0 | 10 | 1 | 4 | 0 | 16 |
+| 360d | 2025-09-27 | 1 | 22 | 1 | 10 | 0 | 35 |
+| last720d | 2024-10-02 | 2 | 64 | 1 | 30 | 0 | 159 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T04:53:26Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T04:52:44Z._

@@ -4,7 +4,7 @@
 
 :bookmark: Personal mini-web in text
 
-[![x-cmd/install — buku Code Quality Monitoring Repo Card](https://repo.x-cmd.io/buku.svg)](https://x-cmd.com/install/buku)
+[![x-cmd/install — buku Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/buku.svg)](https://x-cmd.com/install/buku)
 
 ## Install
 
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,205 · **Forks**: 322 · **Open issues**: 430 · **Contributors**: 77
+- **Stars**: 7,207 · **Forks**: 322 · **Open issues**: 430 · **Contributors**: 77
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 1 | 0 | 0 | 0 | 1 |
-| last60d | 2026-07-24 | 0 | 4 | 0 | 0 | 0 | 7 |
-| 90d | 2026-06-24 | 0 | 7 | 1 | 1 | 0 | 10 |
-| last180d | 2026-03-26 | 0 | 10 | 1 | 4 | 0 | 16 |
-| 360d | 2025-09-27 | 1 | 22 | 1 | 10 | 0 | 35 |
-| last720d | 2024-10-02 | 2 | 64 | 1 | 30 | 0 | 159 |
+| 30d | 2026-08-24 | 0 | 1 | 0 | 0 | 0 | 1 |
+| last60d | 2026-07-25 | 0 | 4 | 0 | 0 | 0 | 7 |
+| 90d | 2026-06-25 | 0 | 7 | 1 | 1 | 0 | 10 |
+| last180d | 2026-03-27 | 0 | 9 | 1 | 4 | 0 | 16 |
+| 360d | 2025-09-28 | 1 | 22 | 1 | 10 | 0 | 35 |
+| last720d | 2024-10-03 | 2 | 64 | 1 | 30 | 0 | 159 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T04:52:44Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T04:56:02Z._

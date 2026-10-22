@@ -14,11 +14,11 @@ x install buku
 
 ## Code insight
 
-Total: **32,409** lines of code across **84** files in the top 5 languages.
+Total: **32,402** lines of code across **84** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 11,387 | 638 | 1,797 | 27 |
+| Python | 11,383 | 638 | 1,796 | 27 |
 | JavaScript | 10,212 | 2,118 | 2,145 | 7 |
 | Yaml | 9,526 | 46 | 129 | 37 |
 | Html | 582 | 0 | 54 | 12 |
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.1` (2025-12-07)
-- **Last commit**: 2026-09-15
+- **Last commit**: 2026-10-22
 
 ## Popularity
 
-- **Stars**: 7,235 · **Forks**: 324 · **Open issues**: 431 · **Contributors**: 77
+- **Stars**: 7,238 · **Forks**: 322 · **Open issues**: 431 · **Contributors**: 77
 
 ## Totals (cumulative)
 
-- **Releases**: 44 · **Merged PRs**: 378 · **Open PRs**: 2 · **Closed issues**: 429 · **Open issues**: 2 · **Commits**: 2265
+- **Releases**: 44 · **Merged PRs**: 379 · **Open PRs**: 2 · **Closed issues**: 430 · **Open issues**: 1 · **Commits**: 2267
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-08-22 | 0 | 1 | 1 | 0 | 1 | 1 |
-| 90d | 2026-07-23 | 0 | 4 | 1 | 0 | 1 | 8 |
-| last180d | 2026-04-24 | 0 | 8 | 2 | 4 | 1 | 15 |
-| 360d | 2025-10-26 | 1 | 19 | 2 | 9 | 1 | 32 |
-| last720d | 2024-10-31 | 2 | 62 | 2 | 26 | 1 | 155 |
+| 30d | 2026-09-22 | 0 | 1 | 1 | 1 | 0 | 1 |
+| last60d | 2026-08-23 | 0 | 2 | 1 | 1 | 0 | 2 |
+| 90d | 2026-07-24 | 0 | 5 | 1 | 1 | 0 | 9 |
+| last180d | 2026-04-25 | 0 | 9 | 2 | 5 | 0 | 16 |
+| 360d | 2025-10-27 | 1 | 20 | 2 | 10 | 0 | 33 |
+| last720d | 2024-11-01 | 2 | 63 | 2 | 27 | 0 | 157 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T04:36:09Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T04:40:09Z._

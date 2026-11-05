@@ -14,14 +14,14 @@ x install buku
 
 ## Code insight
 
-Total: **32,402** lines of code across **84** files in the top 5 languages.
+Total: **32,744** lines of code across **87** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 11,383 | 638 | 1,796 | 27 |
-| JavaScript | 10,212 | 2,118 | 2,145 | 7 |
-| Yaml | 9,526 | 46 | 129 | 37 |
-| Html | 582 | 0 | 54 | 12 |
+| Python | 11,601 | 639 | 1,839 | 27 |
+| JavaScript | 10,245 | 2,118 | 2,146 | 8 |
+| Yaml | 9,609 | 48 | 139 | 39 |
+| Html | 591 | 0 | 55 | 12 |
 | Sql | 164 | 0 | 0 | 1 |
 
 ## OpenSSF Scorecard
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.1` (2025-12-07)
-- **Last commit**: 2026-10-31
+- **Last commit**: 2026-11-05
 
 ## Popularity
 
@@ -50,18 +50,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 44 · **Merged PRs**: 379 · **Open PRs**: 3 · **Closed issues**: 432 · **Open issues**: 2 · **Commits**: 2268
+- **Releases**: 44 · **Merged PRs**: 383 · **Open PRs**: 0 · **Closed issues**: 433 · **Open issues**: 1 · **Commits**: 2278
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 1 | 3 | 3 | 1 | 2 |
-| last60d | 2026-09-05 | 0 | 2 | 3 | 3 | 1 | 3 |
-| 90d | 2026-08-06 | 0 | 2 | 3 | 3 | 1 | 4 |
-| last180d | 2026-05-08 | 0 | 9 | 3 | 7 | 1 | 17 |
-| 360d | 2025-11-09 | 1 | 17 | 3 | 12 | 1 | 32 |
-| last720d | 2024-11-14 | 2 | 61 | 3 | 28 | 1 | 154 |
+| 30d | 2026-10-06 | 0 | 5 | 0 | 4 | 0 | 8 |
+| last60d | 2026-09-06 | 0 | 6 | 0 | 4 | 0 | 9 |
+| 90d | 2026-08-07 | 0 | 6 | 0 | 4 | 0 | 10 |
+| last180d | 2026-05-09 | 0 | 13 | 0 | 8 | 0 | 23 |
+| 360d | 2025-11-10 | 1 | 21 | 0 | 13 | 0 | 38 |
+| last720d | 2024-11-15 | 2 | 65 | 0 | 29 | 0 | 164 |
 
 ## Distribution status
 
@@ -89,4 +89,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:19:36Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:36:35Z._

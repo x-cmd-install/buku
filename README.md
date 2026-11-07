@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 6 | 1 | 4 | 0 | 9 |
-| last60d | 2026-09-07 | 0 | 7 | 1 | 4 | 0 | 10 |
-| 90d | 2026-08-08 | 0 | 7 | 1 | 4 | 0 | 11 |
-| last180d | 2026-05-10 | 0 | 14 | 1 | 8 | 0 | 24 |
-| 360d | 2025-11-11 | 1 | 22 | 1 | 13 | 0 | 39 |
-| last720d | 2024-11-16 | 2 | 65 | 1 | 29 | 0 | 166 |
+| 30d | 2026-10-08 | 0 | 6 | 1 | 4 | 0 | 9 |
+| last60d | 2026-09-08 | 0 | 6 | 1 | 4 | 0 | 10 |
+| 90d | 2026-08-09 | 0 | 7 | 1 | 4 | 0 | 11 |
+| last180d | 2026-05-11 | 0 | 14 | 1 | 8 | 0 | 24 |
+| 360d | 2025-11-12 | 1 | 22 | 1 | 13 | 0 | 39 |
+| last720d | 2024-11-17 | 2 | 65 | 1 | 29 | 0 | 165 |
 
 ## Distribution status
 
-Reported by **110** distros on [repology.org](https://repology.org/project/buku). **18** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
+Reported by **111** distros on [repology.org](https://repology.org/project/buku). **19** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -74,7 +74,7 @@ Reported by **110** distros on [repology.org](https://repology.org/project/buku)
 | Debian 13 | `4.9` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.8` | ⚠️ outdated |
-| Homebrew | `5.1` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `4.9` | ⚠️ outdated |
 | Nix unstable | `5.1.1` | ✅ latest |
 | Void | `5.1.1` | ✅ latest |
@@ -89,4 +89,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:40:32Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T05:56:53Z._

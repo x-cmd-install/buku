@@ -1,391 +1,36 @@
-- repo: slackbuilds
-  srcname: desktop/buku
-  visiblename: desktop/buku
-  version: "5.0"
-  origversion: null
-  status: outdated
-  maintainers:
-    - andrew.clemons@gmail.com
-  categories:
-    - desktop
-- repo: alpine_3_20
-  subrepo: community
+- repo: homebrew
   srcname: buku
-  binname: buku-doc
-  visiblename: buku-doc
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Cmdline bookmark management utility (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: buku
-  binname: buku-fish-completion
-  visiblename: buku-fish-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Fish completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: freebsd
-  srcname: www/buku
-  binname: buku
-  visiblename: www/buku
-  version: 5.1.1
-  origversion: null
-  status: newest
-  summary: Powerful command-line bookmark manager
-  maintainers:
-    - sunpoet@freebsd.org
-  categories:
-    - www
-- repo: alpine_3_18
-  subrepo: community
-  srcname: buku
-  binname: buku
   visiblename: buku
-  version: "4.8"
-  origversion: 4.8-r0
-  status: outdated
-  summary: Cmdline bookmark management utility
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: raspbian_oldstable
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Powerful command-line bookmark manager
+- repo: deepin_unstable
   subrepo: main
   srcname: buku
   binnames:
     - buku
   visiblename: buku
-  version: "4.7"
-  origversion: 4.7+ds-1
+  version: "4.1"
+  origversion: 4.1+ds-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.9"
+  origversion: 4.9+ds-1
   status: outdated
   maintainers:
     - szlin@debian.org
   categories:
     - misc
-- repo: alpine_3_17
-  subrepo: community
-  srcname: buku
-  binname: buku-doc
-  visiblename: buku-doc
-  version: "4.7"
-  origversion: 4.7-r0
-  status: outdated
-  summary: Cmdline bookmark management utility (documentation)
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: buku
-  binname: buku-bash-completion
-  visiblename: buku-bash-completion
-  version: "4.7"
-  origversion: 4.7-r0
-  status: outdated
-  summary: Bash completions for buku
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: buku
-  binname: buku-zsh-completion
-  visiblename: buku-zsh-completion
-  version: "4.7"
-  origversion: 4.7-r0
-  status: outdated
-  summary: Zsh completions for buku
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: buku
-  binname: buku
-  visiblename: buku
-  version: "4.7"
-  origversion: 4.7-r0
-  status: outdated
-  summary: Cmdline bookmark management utility
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: buku
-  binname: buku-fish-completion
-  visiblename: buku-fish-completion
-  version: "4.7"
-  origversion: 4.7-r0
-  status: outdated
-  summary: Fish completions for buku
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: buku
-  binname: buku-bash-completion
-  visiblename: buku-bash-completion
-  version: "4.8"
-  origversion: 4.8-r0
-  status: outdated
-  summary: Bash completions for buku
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: buku
-  binname: buku-doc
-  visiblename: buku-doc
-  version: "4.8"
-  origversion: 4.8-r0
-  status: outdated
-  summary: Cmdline bookmark management utility (documentation)
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: buku
-  binname: buku-fish-completion
-  visiblename: buku-fish-completion
-  version: "4.8"
-  origversion: 4.8-r0
-  status: outdated
-  summary: Fish completions for buku
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: buku
-  binname: buku-zsh-completion
-  visiblename: buku-zsh-completion
-  version: "4.8"
-  origversion: 4.8-r0
-  status: outdated
-  summary: Zsh completions for buku
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: buku
-  binname: buku
-  visiblename: buku
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Cmdline bookmark management utility
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: buku
-  binname: buku-bash-completion
-  visiblename: buku-bash-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Bash completions for buku
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: buku
-  binname: buku-doc
-  visiblename: buku-doc
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Cmdline bookmark management utility (documentation)
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: buku
-  binname: buku-fish-completion
-  visiblename: buku-fish-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Fish completions for buku
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: buku
-  binname: buku-zsh-completion
-  visiblename: buku-zsh-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Zsh completions for buku
-  maintainers:
-    - justin.berthault@zaclys.net
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: buku
-  binname: buku
-  visiblename: buku
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Cmdline bookmark management utility
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: buku
-  binname: buku-bash-completion
-  visiblename: buku-bash-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Bash completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: buku
-  binname: buku-zsh-completion
-  visiblename: buku-zsh-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Zsh completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: buku
-  binname: buku
-  visiblename: buku
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Cmdline bookmark management utility
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: buku
-  binname: buku-bash-completion
-  visiblename: buku-bash-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Bash completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: buku
-  binname: buku-doc
-  visiblename: buku-doc
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Cmdline bookmark management utility (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: buku
-  binname: buku-fish-completion
-  visiblename: buku-fish-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Fish completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: buku
-  binname: buku-zsh-completion
-  visiblename: buku-zsh-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Zsh completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: buku
-  binname: buku
-  visiblename: buku
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Cmdline bookmark management utility
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: buku
-  binname: buku-bash-completion
-  visiblename: buku-bash-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Bash completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: debian_11
-  subrepo: bullseye/main
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: buku
   binnames:
     - buku
@@ -397,177 +42,34 @@
     - szlin@debian.org
   categories:
     - misc
-- repo: alpine_3_22
-  subrepo: community
-  srcname: buku
-  binname: buku-doc
-  visiblename: buku-doc
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Cmdline bookmark management utility (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: buku
-  binname: buku-fish-completion
-  visiblename: buku-fish-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Fish completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: buku
-  binname: buku-zsh-completion
-  visiblename: buku-zsh-completion
-  version: "4.8"
-  origversion: 4.8-r1
-  status: outdated
-  summary: Zsh completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: buku
-  binname: buku
-  visiblename: buku
-  version: "5.0"
-  origversion: 5.0-r0
-  status: outdated
-  summary: Cmdline bookmark management utility
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: buku
-  binname: buku-bash-completion
-  visiblename: buku-bash-completion
-  version: "5.0"
-  origversion: 5.0-r0
-  status: outdated
-  summary: Bash completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: buku
-  binname: buku-doc
-  visiblename: buku-doc
-  version: "5.0"
-  origversion: 5.0-r0
-  status: outdated
-  summary: Cmdline bookmark management utility (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: buku
-  binname: buku-fish-completion
-  visiblename: buku-fish-completion
-  version: "5.0"
-  origversion: 5.0-r0
-  status: outdated
-  summary: Fish completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: buku
-  binname: buku-zsh-completion
-  visiblename: buku-zsh-completion
-  version: "5.0"
-  origversion: 5.0-r0
-  status: outdated
-  summary: Zsh completions for buku
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: buku
-  binname: buku
-  visiblename: buku
-  version: "5.1"
-  origversion: 5.1-r0
-  status: outdated
-  summary: Cmdline bookmark management utility
-  maintainers:
-    - rtmongold@gmail.com
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: buku
-  binname: buku-bash-completion
-  visiblename: buku-bash-completion
-  version: "5.1"
-  origversion: 5.1-r0
-  status: outdated
-  summary: Bash completions for buku
-  maintainers:
-    - rtmongold@gmail.com
-  licenses:
-    - GPL-3.0-or-later
-- repo: debian_12
-  subrepo: bookworm/main
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: buku
   binnames:
     - buku
   visiblename: buku
-  version: "4.7"
-  origversion: 4.7+ds-1
-  status: outdated
+  version: 5.1.1
+  origversion: 5.1.1+ds-2
+  status: newest
   maintainers:
     - szlin@debian.org
   categories:
     - misc
-- repo: alpine_3_24
-  subrepo: community
-  srcname: buku
-  binname: buku-doc
-  visiblename: buku-doc
-  version: "5.1"
-  origversion: 5.1-r0
-  status: outdated
-  summary: Cmdline bookmark management utility (documentation)
-  maintainers:
-    - rtmongold@gmail.com
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: buku
-  binname: buku-fish-completion
-  visiblename: buku-fish-completion
-  version: "5.1"
-  origversion: 5.1-r0
-  status: outdated
-  summary: Fish completions for buku
-  maintainers:
-    - rtmongold@gmail.com
-  licenses:
-    - GPL-3.0-or-later
-- repo: raspbian_stable
+- repo: kali_rolling
   subrepo: main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: 5.1.1
+  origversion: 5.1.1+ds-2
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
   srcname: buku
   binnames:
     - buku
@@ -575,6 +77,539 @@
   version: "4.9"
   origversion: 4.9+ds-1
   status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: alpine_3_17
+  subrepo: community
+  srcname: buku
+  binname: buku
+  visiblename: buku
+  version: "4.7"
+  origversion: 4.7-r0
+  status: outdated
+  summary: Cmdline bookmark management utility
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: buku
+  binname: buku-fish-completion
+  visiblename: buku-fish-completion
+  version: "4.7"
+  origversion: 4.7-r0
+  status: outdated
+  summary: Fish completions for buku
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: buku
+  binname: buku-doc
+  visiblename: buku-doc
+  version: "4.7"
+  origversion: 4.7-r0
+  status: outdated
+  summary: Cmdline bookmark management utility (documentation)
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: buku
+  binname: buku-bash-completion
+  visiblename: buku-bash-completion
+  version: "4.7"
+  origversion: 4.7-r0
+  status: outdated
+  summary: Bash completions for buku
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: buku
+  binname: buku-zsh-completion
+  visiblename: buku-zsh-completion
+  version: "4.7"
+  origversion: 4.7-r0
+  status: outdated
+  summary: Zsh completions for buku
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: buku
+  binname: buku
+  visiblename: buku
+  version: "4.8"
+  origversion: 4.8-r0
+  status: outdated
+  summary: Cmdline bookmark management utility
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: buku
+  binname: buku-bash-completion
+  visiblename: buku-bash-completion
+  version: "4.8"
+  origversion: 4.8-r0
+  status: outdated
+  summary: Bash completions for buku
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: buku
+  binname: buku-doc
+  visiblename: buku-doc
+  version: "4.8"
+  origversion: 4.8-r0
+  status: outdated
+  summary: Cmdline bookmark management utility (documentation)
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: buku
+  binname: buku-fish-completion
+  visiblename: buku-fish-completion
+  version: "4.8"
+  origversion: 4.8-r0
+  status: outdated
+  summary: Fish completions for buku
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: buku
+  binname: buku-zsh-completion
+  visiblename: buku-zsh-completion
+  version: "4.8"
+  origversion: 4.8-r0
+  status: outdated
+  summary: Zsh completions for buku
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: buku
+  binname: buku
+  visiblename: buku
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Cmdline bookmark management utility
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: buku
+  binname: buku-bash-completion
+  visiblename: buku-bash-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Bash completions for buku
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: buku
+  binname: buku-doc
+  visiblename: buku-doc
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Cmdline bookmark management utility (documentation)
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: buku
+  binname: buku-fish-completion
+  visiblename: buku-fish-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Fish completions for buku
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: buku
+  binname: buku-zsh-completion
+  visiblename: buku-zsh-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Zsh completions for buku
+  maintainers:
+    - justin.berthault@zaclys.net
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: buku
+  binname: buku
+  visiblename: buku
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Cmdline bookmark management utility
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: buku
+  binname: buku-bash-completion
+  visiblename: buku-bash-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Bash completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: buku
+  binname: buku-doc
+  visiblename: buku-doc
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Cmdline bookmark management utility (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: buku
+  binname: buku-fish-completion
+  visiblename: buku-fish-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Fish completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: buku
+  binname: buku-zsh-completion
+  visiblename: buku-zsh-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Zsh completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: buku
+  binname: buku
+  visiblename: buku
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Cmdline bookmark management utility
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: buku
+  binname: buku-bash-completion
+  visiblename: buku-bash-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Bash completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: buku
+  binname: buku-doc
+  visiblename: buku-doc
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Cmdline bookmark management utility (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: buku
+  binname: buku-fish-completion
+  visiblename: buku-fish-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Fish completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: buku
+  binname: buku-zsh-completion
+  visiblename: buku-zsh-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Zsh completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: buku
+  binname: buku
+  visiblename: buku
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Cmdline bookmark management utility
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: buku
+  binname: buku-bash-completion
+  visiblename: buku-bash-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Bash completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: buku
+  binname: buku-doc
+  visiblename: buku-doc
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Cmdline bookmark management utility (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: buku
+  binname: buku-fish-completion
+  visiblename: buku-fish-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Fish completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: debian_14
+  subrepo: forky/main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: 5.1.1
+  origversion: 5.1.1+ds-2
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: alpine_3_22
+  subrepo: community
+  srcname: buku
+  binname: buku-zsh-completion
+  visiblename: buku-zsh-completion
+  version: "4.8"
+  origversion: 4.8-r1
+  status: outdated
+  summary: Zsh completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: buku
+  binname: buku
+  visiblename: buku
+  version: "5.0"
+  origversion: 5.0-r0
+  status: outdated
+  summary: Cmdline bookmark management utility
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: buku
+  binname: buku-bash-completion
+  visiblename: buku-bash-completion
+  version: "5.0"
+  origversion: 5.0-r0
+  status: outdated
+  summary: Bash completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: buku
+  binname: buku-doc
+  visiblename: buku-doc
+  version: "5.0"
+  origversion: 5.0-r0
+  status: outdated
+  summary: Cmdline bookmark management utility (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: buku
+  binname: buku-fish-completion
+  visiblename: buku-fish-completion
+  version: "5.0"
+  origversion: 5.0-r0
+  status: outdated
+  summary: Fish completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: buku
+  binname: buku-zsh-completion
+  visiblename: buku-zsh-completion
+  version: "5.0"
+  origversion: 5.0-r0
+  status: outdated
+  summary: Zsh completions for buku
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: buku
+  binname: buku
+  visiblename: buku
+  version: "5.1"
+  origversion: 5.1-r0
+  status: outdated
+  summary: Cmdline bookmark management utility
+  maintainers:
+    - rtmongold@gmail.com
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: buku
+  binname: buku-bash-completion
+  visiblename: buku-bash-completion
+  version: "5.1"
+  origversion: 5.1-r0
+  status: outdated
+  summary: Bash completions for buku
+  maintainers:
+    - rtmongold@gmail.com
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: buku
+  binname: buku-doc
+  visiblename: buku-doc
+  version: "5.1"
+  origversion: 5.1-r0
+  status: outdated
+  summary: Cmdline bookmark management utility (documentation)
+  maintainers:
+    - rtmongold@gmail.com
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: buku
+  binname: buku-fish-completion
+  visiblename: buku-fish-completion
+  version: "5.1"
+  origversion: 5.1-r0
+  status: outdated
+  summary: Fish completions for buku
+  maintainers:
+    - rtmongold@gmail.com
+  licenses:
+    - GPL-3.0-or-later
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: 5.1.1
+  origversion: 5.1.1+ds-2
+  status: newest
   maintainers:
     - szlin@debian.org
   categories:
@@ -631,6 +666,19 @@
     - rtmongold@gmail.com
   licenses:
     - GPL-3.0-or-later
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.9"
+  origversion: 4.9+ds-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
 - repo: alpine_edge
   subrepo: community
   srcname: buku
@@ -707,6 +755,32 @@
     - severach@aur
   licenses:
     - GPL3
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.5"
+  origversion: 4.5+ds-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.7"
+  origversion: 4.7+ds-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
 - repo: debian_13
   subrepo: trixie/main
   srcname: buku
@@ -720,82 +794,6 @@
     - szlin@debian.org
   categories:
     - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: 5.1.1
-  origversion: 5.1.1+ds-2
-  status: newest
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: 5.1.1
-  origversion: 5.1.1+ds-2
-  status: newest
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.1"
-  origversion: 4.1+ds-2
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-- repo: deepin_25
-  subrepo: community
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.9"
-  origversion: 4.9+ds-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.5"
-  origversion: 4.5+ds-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: 5.1.1
-  origversion: 5.1.1+ds-2
-  status: newest
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
 - repo: fedora_39
   subrepo: release
   srcname: buku
@@ -804,20 +802,6 @@
   visiblename: buku
   version: "4.8"
   origversion: 4.8-2.fc39
-  status: outdated
-  summary: Powerful command-line bookmark manager
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: updates
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.9"
-  origversion: 4.9-1.fc40
   status: outdated
   summary: Powerful command-line bookmark manager
   licenses:
@@ -838,15 +822,15 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: release
+- repo: fedora_40
+  subrepo: updates
   srcname: buku
   binnames:
     - buku
   visiblename: buku
-  version: "4.8"
-  origversion: 4.8-5.fc41
-  status: legacy
+  version: "4.9"
+  origversion: 4.9-1.fc40
+  status: outdated
   summary: Powerful command-line bookmark manager
   licenses:
     - GPL-3.0-or-later
@@ -861,6 +845,20 @@
   version: "4.9"
   origversion: 4.9-1.fc41
   status: outdated
+  summary: Powerful command-line bookmark manager
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.8"
+  origversion: 4.8-5.fc41
+  status: legacy
   summary: Powerful command-line bookmark manager
   licenses:
     - GPL-3.0-or-later
@@ -922,6 +920,18 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
+- repo: freebsd
+  srcname: www/buku
+  binname: buku
+  visiblename: www/buku
+  version: 5.1.1
+  origversion: null
+  status: newest
+  summary: Powerful command-line bookmark manager
+  maintainers:
+    - sunpoet@freebsd.org
+  categories:
+    - www
 - repo: gentoo
   srcname: www-misc/buku
   visiblename: www-misc/buku
@@ -967,26 +977,6 @@
   origversion: null
   status: outdated
   summary: Powerful command-line bookmark manager
-- repo: homebrew
-  srcname: buku
-  visiblename: buku
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Powerful command-line bookmark manager
-- repo: kali_rolling
-  subrepo: main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: 5.1.1
-  origversion: 5.1.1+ds-2
-  status: newest
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: www-misc/buku
   visiblename: www-misc/buku
@@ -1264,6 +1254,55 @@
   origversion: null
   status: outdated
   summary: Bookmark manager like a text-based mini-web.
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.7"
+  origversion: 4.7+ds-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.9"
+  origversion: 4.9+ds-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: 5.1.1
+  origversion: 5.1.1+ds-2
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: slackbuilds
+  srcname: desktop/buku
+  visiblename: desktop/buku
+  version: "5.0"
+  origversion: null
+  status: outdated
+  maintainers:
+    - andrew.clemons@gmail.com
+  categories:
+    - desktop
 - repo: t2
   srcname: buku
   visiblename: buku
@@ -1329,32 +1368,6 @@
     - szlin@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.9"
-  origversion: 4.9+ds-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.9"
-  origversion: 4.9+ds-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_26_04
   subrepo: resolute/universe
   srcname: buku
@@ -1381,6 +1394,19 @@
     - szlin@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: 5.1.1
+  origversion: 5.1.1+ds-2
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
 - repo: void_x86_64
   subrepo: x86_64
   srcname: buku
@@ -1394,16 +1420,3 @@
     - orphan@voidlinux.org
   licenses:
     - GPL-3.0-or-later
-- repo: raspbian_testing
-  subrepo: main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: 5.1.1
-  origversion: 5.1.1+ds-2
-  status: newest
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc

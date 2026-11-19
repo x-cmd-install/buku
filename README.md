@@ -14,11 +14,11 @@ x install buku
 
 ## Code insight
 
-Total: **32,792** lines of code across **87** files in the top 5 languages.
+Total: **32,855** lines of code across **87** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 11,620 | 640 | 1,843 | 27 |
+| Python | 11,683 | 642 | 1,865 | 27 |
 | JavaScript | 10,274 | 2,118 | 2,152 | 8 |
 | Yaml | 9,609 | 48 | 139 | 39 |
 | Html | 591 | 0 | 55 | 12 |
@@ -32,30 +32,30 @@ Total: **32,792** lines of code across **87** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v5.1` (2025-12-07)
-- **Last commit**: 2026-11-07
+- **Last commit**: 2026-11-18
 
 ## Popularity
 
-- **Stars**: 7,256 · **Forks**: 325 · **Open issues**: 437 · **Contributors**: 79
+- **Stars**: 7,257 · **Forks**: 325 · **Open issues**: 437 · **Contributors**: 82
 
 ## Totals (cumulative)
 
-- **Releases**: 44 · **Merged PRs**: 385 · **Open PRs**: 4 · **Closed issues**: 433 · **Open issues**: 4 · **Commits**: 2282
+- **Releases**: 44 · **Merged PRs**: 391 · **Open PRs**: 0 · **Closed issues**: 436 · **Open issues**: 1 · **Commits**: 2294
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 7 | 4 | 3 | 3 | 9 |
-| last60d | 2026-09-18 | 0 | 7 | 4 | 4 | 3 | 10 |
-| 90d | 2026-08-19 | 0 | 8 | 4 | 4 | 3 | 11 |
-| last180d | 2026-05-21 | 0 | 15 | 4 | 8 | 3 | 25 |
-| 360d | 2025-11-22 | 1 | 22 | 4 | 13 | 3 | 34 |
-| last720d | 2024-11-27 | 2 | 66 | 4 | 29 | 3 | 166 |
+| 30d | 2026-10-20 | 0 | 13 | 0 | 6 | 0 | 15 |
+| last60d | 2026-09-20 | 0 | 13 | 0 | 7 | 0 | 16 |
+| 90d | 2026-08-21 | 0 | 14 | 0 | 7 | 0 | 17 |
+| last180d | 2026-05-23 | 0 | 21 | 0 | 11 | 0 | 31 |
+| 360d | 2025-11-24 | 1 | 28 | 0 | 16 | 0 | 40 |
+| last720d | 2024-11-29 | 2 | 72 | 0 | 32 | 0 | 178 |
 
 ## Distribution status
 
-Reported by **112** distros on [repology.org](https://repology.org/project/buku). **19** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
+Reported by **111** distros on [repology.org](https://repology.org/project/buku). **19** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -79,4 +79,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T07:49:16Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:34:22Z._

@@ -14,15 +14,25 @@ x install buku
 
 ## Code insight
 
-Total: **33,161** lines of code across **87** files in the top 5 languages.
+Total: **33,037** lines of code across **87** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 11,985 | 642 | 1,922 | 27 |
+| Python | 11,861 | 642 | 1,905 | 27 |
 | JavaScript | 10,274 | 2,118 | 2,152 | 8 |
 | Yaml | 9,609 | 48 | 139 | 39 |
 | Html | 591 | 0 | 55 | 12 |
 | Sql | 164 | 0 | 0 | 1 |
+
+## OpenSSF Scorecard
+
+Overall score: **4 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## Source
 
@@ -32,26 +42,26 @@ Total: **33,161** lines of code across **87** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v5.1` (2025-12-07)
-- **Last commit**: 2026-11-22
+- **Last commit**: 2026-11-23
 
 ## Popularity
 
-- **Stars**: 7,257 · **Forks**: 325 · **Open issues**: 437 · **Contributors**: 82
+- **Stars**: 7,257 · **Forks**: 325 · **Open issues**: 438 · **Contributors**: 82
 
 ## Totals (cumulative)
 
-- **Releases**: 44 · **Merged PRs**: 391 · **Open PRs**: 0 · **Closed issues**: 436 · **Open issues**: 1 · **Commits**: 2299
+- **Releases**: 44 · **Merged PRs**: 392 · **Open PRs**: 0 · **Closed issues**: 437 · **Open issues**: 1 · **Commits**: 2299
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 12 | 0 | 6 | 0 | 20 |
-| last60d | 2026-09-24 | 0 | 13 | 0 | 7 | 0 | 21 |
-| 90d | 2026-08-25 | 0 | 14 | 0 | 7 | 0 | 22 |
-| last180d | 2026-05-27 | 0 | 21 | 0 | 11 | 0 | 36 |
-| 360d | 2025-11-28 | 1 | 26 | 0 | 14 | 0 | 44 |
-| last720d | 2024-12-03 | 2 | 72 | 0 | 31 | 0 | 183 |
+| 30d | 2026-10-25 | 0 | 13 | 0 | 7 | 0 | 20 |
+| last60d | 2026-09-25 | 0 | 14 | 0 | 8 | 0 | 21 |
+| 90d | 2026-08-26 | 0 | 15 | 0 | 8 | 0 | 22 |
+| last180d | 2026-05-28 | 0 | 22 | 0 | 12 | 0 | 36 |
+| 360d | 2025-11-29 | 1 | 26 | 0 | 15 | 0 | 44 |
+| last720d | 2024-12-04 | 2 | 73 | 0 | 32 | 0 | 183 |
 
 ## Distribution status
 
@@ -79,4 +89,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T07:46:37Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T09:50:35Z._

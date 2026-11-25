@@ -1,5 +1,5 @@
-- repo: raspbian_stable
-  subrepo: main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: buku
   binnames:
     - buku
@@ -24,19 +24,66 @@
     - szlin@debian.org
   categories:
     - misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
+- repo: pypi
+  srcname: buku
+  binname: buku
+  visiblename: buku
+  version: "5.1"
+  origversion: null
+  status: outdated
+  summary: Bookmark manager like a text-based mini-web.
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: buku
   binnames:
     - buku
   visiblename: buku
-  version: "5.0"
-  origversion: 5.0+ds-1
+  version: "4.7"
+  origversion: 4.7+ds-1
   status: outdated
   maintainers:
     - szlin@debian.org
   categories:
-    - universe/misc
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.9"
+  origversion: 4.9+ds-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.9"
+  origversion: 4.9+ds-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.9"
+  origversion: 4.9+ds-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
 - repo: slackbuilds
   srcname: desktop/buku
   visiblename: desktop/buku
@@ -47,20 +94,6 @@
     - andrew.clemons@gmail.com
   categories:
     - desktop
-- repo: homebrew
-  srcname: buku
-  visiblename: buku
-  version: "5.1"
-  origversion: null
-  status: outdated
-  summary: Powerful command-line bookmark manager
-- repo: homebrew
-  srcname: buku
-  visiblename: buku
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Powerful command-line bookmark manager
 - repo: alpine_3_17
   subrepo: community
   srcname: buku
@@ -360,19 +393,6 @@
     - fallback-mnt-alpine@repology
   licenses:
     - GPL-3.0-or-later
-- repo: kali_rolling
-  subrepo: main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: 5.1.1
-  origversion: 5.1.1+ds-2
-  status: newest
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: buku
@@ -870,20 +890,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.9"
-  origversion: 4.9-1.fc41
-  status: outdated
-  summary: Powerful command-line bookmark manager
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: buku
   binnames:
@@ -892,6 +898,33 @@
   version: "4.8"
   origversion: 4.8-5.fc41
   status: legacy
+  summary: Powerful command-line bookmark manager
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.5"
+  origversion: 4.5+ds-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: fedora_41
+  subrepo: updates
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "4.9"
+  origversion: 4.9-1.fc41
+  status: outdated
   summary: Powerful command-line bookmark manager
   licenses:
     - GPL-3.0-or-later
@@ -1003,6 +1036,33 @@
   origversion: null
   status: outdated
   summary: Bookmark manager
+- repo: homebrew
+  srcname: buku
+  visiblename: buku
+  version: "5.1"
+  origversion: null
+  status: outdated
+  summary: Powerful command-line bookmark manager
+- repo: homebrew
+  srcname: buku
+  visiblename: buku
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Powerful command-line bookmark manager
+- repo: kali_rolling
+  subrepo: main
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: 5.1.1
+  origversion: 5.1.1+ds-2
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: www-misc/buku
   visiblename: www-misc/buku
@@ -1193,92 +1253,6 @@
     - szlin@debian.org
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.9"
-  origversion: 4.9+ds-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.9"
-  origversion: 4.9+ds-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.1"
-  origversion: 4.1+ds-2
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.5"
-  origversion: 4.5+ds-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.9"
-  origversion: 4.9+ds-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: pypi
-  srcname: buku
-  binname: buku
-  visiblename: buku
-  version: "5.1"
-  origversion: null
-  status: outdated
-  summary: Bookmark manager like a text-based mini-web.
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: buku
-  binnames:
-    - buku
-  visiblename: buku
-  version: "4.7"
-  origversion: 4.7+ds-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
 - repo: t2
   srcname: buku
   visiblename: buku
@@ -1365,6 +1339,19 @@
   visiblename: buku
   version: "4.9"
   origversion: 4.9+ds-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: buku
+  binnames:
+    - buku
+  visiblename: buku
+  version: "5.0"
+  origversion: 5.0+ds-1
   status: outdated
   maintainers:
     - szlin@debian.org

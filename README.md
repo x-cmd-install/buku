@@ -46,39 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,256 · **Forks**: 326 · **Open issues**: 438 · **Contributors**: 82
+- **Stars**: 7,257 · **Forks**: 327 · **Open issues**: 444 · **Contributors**: 82
 
 ## Totals (cumulative)
 
-- **Releases**: 44 · **Merged PRs**: 392 · **Open PRs**: 0 · **Closed issues**: 437 · **Open issues**: 1 · **Commits**: 2299
+- **Releases**: 44 · **Merged PRs**: 392 · **Open PRs**: 6 · **Closed issues**: 437 · **Open issues**: 7 · **Commits**: 2299
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 13 | 0 | 7 | 0 | 20 |
-| last60d | 2026-09-26 | 0 | 14 | 0 | 8 | 0 | 21 |
-| 90d | 2026-08-27 | 0 | 15 | 0 | 8 | 0 | 22 |
-| last180d | 2026-05-29 | 0 | 22 | 0 | 12 | 0 | 36 |
-| 360d | 2025-11-30 | 1 | 26 | 0 | 15 | 0 | 44 |
-| last720d | 2024-12-05 | 2 | 73 | 0 | 32 | 0 | 183 |
-
-## Distribution status
-
-Reported by **109** distros on [repology.org](https://repology.org/project/buku). **19** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `5.1.1` | ✅ latest |
-| Debian 14 | `5.1.1` | ✅ latest |
-| Debian 13 | `4.9` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `5.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `4.8` | ⚠️ outdated |
-| Homebrew | `5.1` | ⚠️ outdated |
-| Fedora rawhide | `4.9` | ⚠️ outdated |
-| Nix unstable | `5.1.1` | ✅ latest |
-| Void | `5.1.1` | ✅ latest |
-| Alpine edge | `5.1.1` | ✅ latest |
+| 30d | 2026-10-27 | 0 | 13 | 6 | 7 | 6 | 0 |
+| last60d | 2026-09-27 | 0 | 14 | 6 | 8 | 6 | 0 |
+| 90d | 2026-08-28 | 0 | 15 | 6 | 8 | 6 | 0 |
+| last180d | 2026-05-30 | 0 | 22 | 6 | 12 | 6 | 0 |
+| 360d | 2025-12-01 | 1 | 26 | 6 | 14 | 6 | 0 |
+| last720d | 2024-12-06 | 2 | 73 | 6 | 32 | 6 | 183 |
 
 ## Improve this data
 
@@ -89,4 +72,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:28:04Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:15:08Z._

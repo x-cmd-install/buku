@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,257 · **Forks**: 327 · **Open issues**: 444 · **Contributors**: 82
+- **Stars**: 7,256 · **Forks**: 327 · **Open issues**: 444 · **Contributors**: 82
 
 ## Totals (cumulative)
 
@@ -56,12 +56,29 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 13 | 6 | 7 | 6 | 0 |
-| last60d | 2026-09-27 | 0 | 14 | 6 | 8 | 6 | 0 |
-| 90d | 2026-08-28 | 0 | 15 | 6 | 8 | 6 | 0 |
-| last180d | 2026-05-30 | 0 | 22 | 6 | 12 | 6 | 0 |
-| 360d | 2025-12-01 | 1 | 26 | 6 | 14 | 6 | 0 |
-| last720d | 2024-12-06 | 2 | 73 | 6 | 32 | 6 | 183 |
+| 30d | 2026-10-28 | 0 | 13 | 6 | 7 | 6 | 0 |
+| last60d | 2026-09-28 | 0 | 14 | 6 | 8 | 6 | 0 |
+| 90d | 2026-08-29 | 0 | 15 | 6 | 8 | 6 | 0 |
+| last180d | 2026-05-31 | 0 | 22 | 6 | 12 | 6 | 0 |
+| 360d | 2025-12-02 | 1 | 26 | 6 | 14 | 6 | 0 |
+| last720d | 2024-12-07 | 2 | 73 | 6 | 32 | 6 | 183 |
+
+## Distribution status
+
+Reported by **109** distros on [repology.org](https://repology.org/project/buku). **19** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `5.1.1` | ✅ latest |
+| Debian 14 | `5.1.1` | ✅ latest |
+| Debian 13 | `4.9` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `5.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.8` | ⚠️ outdated |
+| Homebrew | `5.1` | ⚠️ outdated |
+| Fedora rawhide | `4.9` | ⚠️ outdated |
+| Nix unstable | `5.1.1` | ✅ latest |
+| Void | `5.1.1` | ✅ latest |
+| Alpine edge | `5.1.1` | ✅ latest |
 
 ## Improve this data
 
@@ -72,4 +89,4 @@ Install metadata for buku lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:15:08Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:38:33Z._

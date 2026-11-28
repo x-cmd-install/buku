@@ -2,20 +2,20 @@ about:
   description: ":bookmark: Personal mini-web in text"
   license: GPL-3.0
   homepage: 
-  head: 5e01546
+  head: 9ec3730
   archived: false
   latestVersion: "v5.1"
   latestRelease: "v5.1"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T08:38:25Z
+  collectedAt: 2026-11-28T07:45:38Z
 timeline:
   created: 2015-11-01
-  lastCommit: 2026-11-23
+  lastCommit: 2026-11-27
   lastVersion: 2025-12-07
   lastRelease: 2025-12-07
   lastPrerelease: 
 popularity:
-  star: 7256
+  star: 7257
   watcher: 74
   fork: 327
   release: 44
@@ -23,7 +23,7 @@ popularity:
   pullRequest: 452
   issue: 444
 language:
-  Python: 540475
+  Python: 546286
   Roff: 35381
   HTML: 34293
   JavaScript: 8630
@@ -32,71 +32,71 @@ language:
   Dockerfile: 680
   Makefile: 508
   Batchfile: 63
-totalBytes: 629506
+totalBytes: 635317
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
-    mergedPR: 13
-    openPR: 6
-    closedIssue: 7
-    openIssue: 6
-    commit: 0
+    mergedPR: 16
+    openPR: 3
+    closedIssue: 10
+    openIssue: 3
+    commit: 25
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
-    mergedPR: 14
-    openPR: 6
-    closedIssue: 8
-    openIssue: 6
-    commit: 0
+    mergedPR: 17
+    openPR: 3
+    closedIssue: 11
+    openIssue: 3
+    commit: 26
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
-    mergedPR: 15
-    openPR: 6
-    closedIssue: 8
-    openIssue: 6
-    commit: 0
+    mergedPR: 18
+    openPR: 3
+    closedIssue: 11
+    openIssue: 3
+    commit: 27
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
-    mergedPR: 22
-    openPR: 6
-    closedIssue: 12
-    openIssue: 6
-    commit: 0
+    mergedPR: 25
+    openPR: 3
+    closedIssue: 15
+    openIssue: 3
+    commit: 41
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 1
-    mergedPR: 26
-    openPR: 6
-    closedIssue: 14
-    openIssue: 6
-    commit: 0
+    mergedPR: 29
+    openPR: 3
+    closedIssue: 17
+    openIssue: 3
+    commit: 49
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 2
-    mergedPR: 73
-    openPR: 6
-    closedIssue: 32
-    openIssue: 6
-    commit: 183
+    mergedPR: 75
+    openPR: 3
+    closedIssue: 35
+    openIssue: 3
+    commit: 191
 total:
   release: 44
-  mergedPR: 392
-  openPR: 6
-  closedIssue: 437
-  openIssue: 7
-  commit: 2299
+  mergedPR: 395
+  openPR: 3
+  closedIssue: 440
+  openIssue: 4
+  commit: 2307
 ---
 path: /home/runner/.x-repo/github.com/jarun/buku
-collectedAt: 2026-11-27T08:38:27Z
+collectedAt: 2026-11-28T07:45:39Z
 loc:
   Python:
-    code: 11861
-    comments: 642
-    blanks: 1905
+    code: 11967
+    comments: 646
+    blanks: 1933
     files: 27
   JavaScript:
     code: 10274
@@ -199,9 +199,9 @@ loc:
     blanks: 7
     files: 3
 total:
-  code: 33291
-  comments: 3702
-  blanks: 4616
+  code: 33397
+  comments: 3706
+  blanks: 4644
   files: 115
 ---
 date: "2026-11-23"
